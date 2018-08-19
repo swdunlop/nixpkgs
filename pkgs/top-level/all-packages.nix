@@ -12990,6 +12990,8 @@ with pkgs;
 
   nas = callPackage ../servers/nas { };
 
+  nats-streaming-server = callPackage ../servers/nats-streaming-server { };
+
   neard = callPackage ../servers/neard { };
 
   nginx = nginxStable;
